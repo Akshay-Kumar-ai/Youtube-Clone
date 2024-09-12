@@ -1,0 +1,102 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: blue; */
+}
+
+.Header__Left {
+  margin: 10px;
+  /* border: 1px solid black; */
+}
+
+.Header__Logo {
+  height: 25px;
+  margin-left: 10px;
+}
+
+/* //CHECKING */
+.Header__Input {
+  display: flex;
+  width: 40%;
+  height: 40px;
+  margin: 10px;
+  padding: 0px;
+
+  /* border: 1px solid black; */
+}
+.Header__Search__Input_Div {
+  display: flex;
+  flex: 1;
+}
+
+.Header__Search {
+  display: flex;
+  flex: 0.9;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 45px;
+}
+.Header__Search__Icon__N {
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.Header__Search__Icon__N.visible {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  /* border-left: 1px solid rgb(0, 0, 0); */
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  opacity: 0.5;
+}
+
+.Search__Link {
+  /* align-items: center; */
+  padding: 8px 20px;
+  border-left: 1px solid rgb(199, 196, 196);
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  background-color: rgb(228, 235, 241);
+}
+.Header__Search__Input {
+  display: inline-block;
+  flex: 1;
+  /* padding: 0px; */
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 1px solid #ffffff;
+}
+.Header__Search__Input:focus {
+  outline: none;
+  border: none;
+}
+
+.Header__Search__Icon {
+  /* align-items: center; */
+  padding: 0px;
+  color: black;
+}
+
+/* Previous CSS */
+
+.Header__Mic {
+  display: flex;
+  padding: 8px 30px;
+  scale: 1.2;
+  /* border: 1px solid rgb(0, 0, 0); */
+}
+.Header__Mic__Icon {
+  /* border: 1px solid rgb(0, 0, 0); */
+  border-radius: 25px;
+  background-color: rgb(228, 235, 241);
+}
+
+.Header__Right {
+  display: flex;
+  flex: 0.2;
+  width: 10%;
+  justify-content: space-evenly;
+  margin: 10px;
+  /* border: 1px solid black; */
+}
